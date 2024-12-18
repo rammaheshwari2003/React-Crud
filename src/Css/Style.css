@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    color: white;
+    position: fixed;
+    
+    a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 30px;
+        padding: 20px;
+        color: white;
+    }
+    h1{
+        padding: 20px 0 16px 0px;
+        text-align: center;
+    }
+}
+
+#navbar{
+     width: 100%;
+     height: 10vh;
+     background-color: black;
+     color: white;
+     position: fixed;
+
+}
+#sign{
+    margin-left: 85vw;
+    
+}
+
+
+#bar,#search{
+        margin-left: 20vw;
+        font-size: 25px;
+        margin-top: 20px;
+        
+     }
+
+#home{
+        margin-left: 20vw;
+        padding-top:17px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+   
+}
+
+
+
+#i{
+    padding-top: 18vh;
+    background: url(../images/i4.webp) no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+#insert{
+    margin: 0 25vw 0 40vw;
+    padding: 10vh;
+    border: 2px solid black;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    
+
+
+    input{
+        padding: 10px;
+        width: 100%;
+}
+    button{
+        padding: 10px 20px 10px 20px;
+        border-radius: 15px;
+    }
+    
+}
+
+
+#display{
+    /* padding: 10vh 0 0 20vw; */
+    text-align: center;
+    font-size: 30px;
+    backdrop-filter: blur(10px);
+    
+}
+#d{
+    background: url("../images/i1.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 10vh 0 0 20vw;
+
+}
+
+.search{
+    padding: 10vh 0 0 20vw;
+    font-size: 30px;
+    background: url(../images/i2.avif) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+
+#searchinput{
+    text-align: center;
+    padding: 5vh 0 5vh 0;
+    margin-top: 5vh;
+    margin-left: 15vw;
+    border: 2px solid black;
+    width: 50%;
+    backdrop-filter: blur(20px);
+    }
+
+    input{
+        padding: 10px;
+        border-radius: 10px;
+    }
+    button{
+        padding: 10px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    #s-dis{
+        padding-top: 10px;
+        backdrop-filter: blur(20px);
+        text-align: center;
+
+    }
+}
+
+#up{
+    background: url(../images/i3.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+#update{
+    padding-top: 10vh;
+    margin-left: 20vw;
+    font-size: 30px;
+    text-align: center;
+    backdrop-filter: blur(20px);
+}

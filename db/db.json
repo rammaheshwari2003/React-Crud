@@ -1,0 +1,89 @@
+{
+  "Mobile": [
+    {
+      "company": "Apple",
+      "model": "iphone-13",
+      "price": 80000,
+      "storage": "8-256",
+      "image": "",
+      "id": "1bfc"
+    },
+    {
+      "id": "8cbd",
+      "company": "Samsung",
+      "model": "A13",
+      "storage": "4-128",
+      "price": "14999"
+    },
+    {
+      "id": "f63d",
+      "company": "Apple",
+      "model": "iphone-14",
+      "storage": "6-128",
+      "price": "70000"
+    },
+    {
+      "id": "f8e0",
+      "company": "Xiaomi",
+      "storage": "4-128",
+      "price": "13999",
+      "model": "Redmi Note 14 Pro"
+    },
+    {
+      "id": "9a40",
+      "company": "Xiaomi",
+      "storage": "6-128",
+      "price": "16599",
+      "model": "Redmi Note 13",
+      "value": ""
+    },
+    {
+      "id": "779c",
+      "company": "Vivo",
+      "storage": "3-64",
+      "price": "9999",
+      "model": "Y300",
+      "value": ""
+    },
+    {
+      "id": "5523",
+      "company": "Vivo",
+      "storage": "6-256",
+      "price": "20000",
+      "model": "X200 Pro",
+      "value": ""
+    },
+    {
+      "id": "3519",
+      "company": "Sony",
+      "storage": "6-256",
+      "price": "26999",
+      "model": "Xperia 1 VI",
+      "value": ""
+    },
+    {
+      "id": "e0a5",
+      "company": "Realme",
+      "storage": "4-64",
+      "price": "14999",
+      "model": "Neo",
+      "value": ""
+    },
+    {
+      "id": "5104",
+      "company": "Realme",
+      "storage": "8-256",
+      "price": "27999",
+      "model": "V60 Prp ",
+      "value": ""
+    },
+    {
+      "id": "a153",
+      "company": "Realme",
+      "storage": "6-256",
+      "price": "24999",
+      "model": "Narzo 70 Turbo",
+      "value": ""
+    }
+  ]
+}
