@@ -4,16 +4,18 @@ import { FaHome } from "react-icons/fa";
 import { MdOutlineInsertChart } from "react-icons/md";
 import { MdOutlineSmartDisplay } from "react-icons/md";
 import { MdBrowserUpdated } from "react-icons/md";
+import { FaSignInAlt } from "react-icons/fa";
 
+import { useNavigate } from "react-router-dom";
 const Layout=()=>{
+        const navigate=useNavigate();
+    
     return(
         <>
          <div id='navbar'>
-            <FaBars id="bar"/>
+            <FaBars id="bar" />
             {/* <FaSearch id="search" /> */}
-            <div id="sign">
-            Signed in as: <a to="/" >Ram Maheshwari</a>
-            </div>
+            <FaSignInAlt id="bar" onClick={()=>{navigate("/login"),alert("Are you sure to logout")}}/>
         </div>
         
 
@@ -28,6 +30,7 @@ const Layout=()=>{
                 <Link to="display"><MdOutlineSmartDisplay className="icon" />Display</Link>
                 <Link to="search"> <FaSearch className="icon" />Search</Link>
                 <Link to="update"><MdBrowserUpdated className="icon" />Update</Link>
+                
                 
             </div>
             <Outlet />
