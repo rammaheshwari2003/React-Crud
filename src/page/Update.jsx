@@ -48,12 +48,7 @@ const ans=data.map((item)=>{
 
 
 
-    const deldata=(id)=>{
-        let api=`http://localhost:3000/Mobile/${id}`;
-        axios.delete(api).then((res)=>{
-        message.success("data deleted");
-        })
-         }
+   
 
     return(
         <>
