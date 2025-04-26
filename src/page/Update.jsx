@@ -47,12 +47,7 @@ const ans=data.map((item)=>{
     
 
 
-<<<<<<< HEAD
-=======
 
-   
-
->>>>>>> c9500448d764e285064f91a9af87532409169246
     return(
         <>
         <div id="up">
