@@ -45,16 +45,15 @@ const ans=data.map((item)=>{
         getdata();
     })
     
-<<<<<<< HEAD
 
-=======
+
+
     const deldata=(id)=>{
         let api=`http://localhost:3000/Mobile/${id}`;
         axios.delete(api).then((res)=>{
         message.success("data deleted");
         })
          }
->>>>>>> ed62d30e171031edc988602615c4090f37432a6d
 
     return(
         <>
