@@ -2,48 +2,28 @@
   "Mobile": [
     {
       "company": "Apple",
-      "model": "iphone-13",
-      "price": 80000,
+      "model": "iphone-14",
+      "price": "88000",
       "storage": "8-256",
       "image": "",
-      "id": "1bfc"
+      "id": "1",
+      "year": ""
     },
     {
-      "id": "8cbd",
+      "id": "2",
       "company": "Samsung",
       "model": "A13",
       "storage": "4-128",
       "price": "14999"
     },
     {
-      "id": "f63d",
-      "company": "Apple",
-      "model": "iphone-14",
-      "storage": "6-128",
-      "price": "70000"
-    },
-    {
-      "id": "f8e0",
-      "company": "Xiaomi",
-      "storage": "4-128",
-      "price": "13999",
-      "model": "Redmi Note 14 Pro"
-    },
-    {
-      "id": "9a40",
-      "company": "Xiaomi",
-      "storage": "6-128",
-      "price": "16599",
-      "model": "Redmi Note 13",
-      "value": ""
-    },
-    {
       "id": "779c",
       "company": "Vivo",
       "storage": "3-64",
-      "price": "9999",
+      "price": "9820",
       "model": "Y300",
-      "value": ""
+      "value": "",
+      "year": "3-6"
     },
     {
       "id": "5523",
@@ -51,14 +31,6 @@
       "storage": "6-256",
       "price": "20000",
       "model": "X200 Pro",
-      "value": ""
-    },
-    {
-      "id": "3519",
-      "company": "Sony",
-      "storage": "6-256",
-      "price": "26999",
-      "model": "Xperia 1 VI",
       "value": ""
     },
     {
@@ -84,6 +56,21 @@
       "price": "24999",
       "model": "Narzo 70 Turbo",
       "value": ""
+    },
+    {
+      "id": "c8ab",
+      "company": "Apple",
+      "model": "Iphone -",
+      "storage": "6-128",
+      "price": "790000"
+    }
+  ],
+  "User": [
+    {
+      "id": "7c2a",
+      "name": "Ram Maheshwari",
+      "email": "ram@gmail.com",
+      "password": "1234"
     }
   ]
 }

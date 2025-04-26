@@ -20,6 +20,15 @@ const Update=()=>{
         })
     }
 
+    const deldata=(id)=>{
+        let api=`http://localhost:3000/Mobile/${id}`;
+        axios.delete(api).then((res)=>{
+            console.log(res);
+            
+        message.success("data deleted");
+        })
+         }
+
 const ans=data.map((item)=>{
     return(
         <tr>
@@ -36,12 +45,7 @@ const ans=data.map((item)=>{
         getdata();
     })
     
-    const deldata=(id)=>{
-        let api=`http://localhost:3000/Mobiles/${id}`;
-        axios.delete(api).then((res)=>{
-        message.success("data deleted");
-        })
-         }
+
 
     return(
         <>

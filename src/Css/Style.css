@@ -12,7 +12,13 @@
     background-color:black;
     color: white;
     position: fixed;
-    
+    gap: 15px;
+    padding: 20px;
+    font-size: 20px;
+
+    #sidebar .icon {
+        margin-right: 8px;
+    }
     a{
         display: flex;
         justify-content: center;
@@ -33,6 +39,8 @@
      background-color: black;
      color: white;
      position: fixed;
+     display: flex;
+     justify-content: space-between;
 
 }
 #sign{
@@ -45,12 +53,13 @@
         margin-left: 20vw;
         font-size: 25px;
         margin-top: 20px;
-        
+        margin-right: 20px;
+        cursor: pointer;
      }
 
 #home{
         margin-left: 20vw;
-        padding-top:17px;
+        padding-top:60px;
         overflow-x: hidden;
         overflow-y: hidden;
    
@@ -66,10 +75,11 @@
 
 }
 #insert{
-    margin: 0 25vw 0 40vw;
+    /* margin: 0 25vw 0 40vw; */
     padding: 10vh;
     border: 2px solid black;
-    width: 30%;
+    width: 50%;
+    margin: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -92,12 +102,13 @@
 }
 
 
+
+
 #display{
     /* padding: 10vh 0 0 20vw; */
     text-align: center;
     font-size: 30px;
     backdrop-filter: blur(10px);
-    
 }
 #d{
     background: url("../images/i1.jpg") no-repeat;
@@ -106,6 +117,10 @@
     padding: 10vh 0 0 20vw;
 
 }
+
+
+
+
 
 .search{
     padding: 10vh 0 0 20vw;
@@ -118,9 +133,9 @@
     text-align: center;
     padding: 5vh 0 5vh 0;
     margin-top: 5vh;
-    margin-left: 15vw;
+    /* margin-left: 15vw; */
     border: 2px solid black;
-    width: 50%;
+    /* width: 50%; */
     backdrop-filter: blur(20px);
     }
 
@@ -141,16 +156,410 @@
     }
 }
 
+
+
+
+
 #up{
     background: url(../images/i3.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
+    padding-top: 10vh;
+
     
 }
 #update{
-    padding-top: 10vh;
     margin-left: 20vw;
     font-size: 30px;
     text-align: center;
     backdrop-filter: blur(20px);
+}
+
+
+
+
+
+#box-login {
+    background: url(../images/login.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login {
+    opacity: 0.85;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 5px solid black;
+    padding: 40px;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+#login h1 {
+    margin-bottom: 10px;
+}
+
+#login input {
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 15px;
+    transition: all 0.3s ease;
+}
+
+#login input:hover {
+    background-color: #273233;
+    color: white;
+}
+
+#login button {
+    height: 45px;
+    width: 120px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#login button:hover {
+    background-color: #333;
+}
+
+#log {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#log h4,
+#log h5 {
+    margin: 0;
+    text-decoration: underline;
+    color: blue;
+}
+
+#log h4:hover,
+#log h5:hover {
+    color: darkblue;
+}
+
+#box-res {
+    background: url(../images/reg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Register form styling */
+#register {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    width: 400px;
+    height: 600px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#register h1 {
+    margin-bottom: 10px;
+}
+
+#register input {
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 15px;
+    transition: all 0.3s ease;
+}
+
+#register input:hover {
+    background-color: #273233;
+    color: white;
+}
+
+#register button {
+    height: 45px;
+    width: 120px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#register button:hover {
+    background-color: #333;
+}
+
+#register h4 {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#register h4 span {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+#register h4 span:hover {
+    color: darkblue;
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet (≤768px) */
+@media screen and (max-width: 768px) {
+    
+    #insert {
+        padding: 30px;
+        font-size: 17px;
+    }
+
+    #insert input {
+        height: 42px;
+        font-size: 15px;
+    }
+
+    #insert button {
+        width: 100px;
+        font-size: 15px;
+    }
+    #d {
+        background-position: center;
+    }
+
+    #display {
+        font-size: 24px;
+        padding: 10px;
+    }
+    .search {
+        font-size: 24px;
+        background-position: center;
+    }
+
+    #searchinput {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        padding: 4vh 0;
+    }
+
+    #searchinput input,
+    #searchinput button {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    #s-dis {
+        font-size: 18px;
+    }
+    #up {
+        padding-top: 8vh;
+        background-position: center;
+    }
+
+    #update {
+        font-size: 20px;
+    }
+    #login {
+        padding: 30px;
+        font-size: 18px;
+    }
+
+    #login input {
+        height: 45px;
+        font-size: 15px;
+    }
+
+    #login button {
+        width: 100px;
+        font-size: 15px;
+    }
+
+    #register {
+        height: 550px;
+        padding: 30px;
+        font-size: 18px;
+    }
+
+    #register input {
+        height: 45px;
+        font-size: 15px;
+    }
+
+    #register button {
+        width: 100px;
+        font-size: 15px;
+    }
+
+}
+
+/* Mobile (≤480px) */
+@media screen and (max-width: 480px) {
+    
+    #insert {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    #insert input {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #insert button {
+        width: 100%;
+        font-size: 14px;
+    }
+    #d {
+        background-position: center;
+    }
+
+    #display {
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+    }
+    .search {
+        font-size: 20px;
+        background-position: center;
+    }
+
+    #searchinput {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        padding: 3vh 0;
+    }
+
+    #searchinput input,
+    #searchinput button {
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #s-dis {
+        font-size: 16px;
+        padding: 10px;
+    }
+    #up {
+        padding-top: 6vh;
+        background-position: center;
+    }
+
+    #update {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    #login {
+        width: 80%;
+        height: 500px;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    #login input {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #login button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #log {
+        flex-direction: column;
+        gap: 8px;
+        font-size: 13px;
+    }
+
+    #register {
+        width: 80%;
+        height: 550px;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    #register input {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #register button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #register h4 {
+        font-size: 13px;
+    }
+
 }

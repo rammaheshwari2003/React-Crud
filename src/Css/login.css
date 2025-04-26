@@ -1,0 +1,112 @@
+#i {
+    background: url(../images/login.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Insert form styling */
+#insert {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 40px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Text inputs */
+#insert input {
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    padding: 0 15px;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#insert input:hover {
+    background-color: #273233;
+    color: white;
+}
+
+/* Button styling */
+#insert button {
+    height: 45px;
+    width: 120px;
+    margin: 15px auto 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#insert button:hover {
+    background-color: #333;
+}
+
+
+
+
+/* Tablet (<=768px) */
+@media screen and (max-width: 768px) {
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile (<=480px) */
+@media screen and (max-width: 480px) {
+   }
